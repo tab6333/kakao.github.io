@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>두 번째 시간</title>
+        <!--<style>
+            body { background-color: cadetblue; }
+            h2 { color: gray; }
+            hr { border:10px solid red;  }
+            span { color: orange; }
+        </style>-->
+        <!--<link href="12-1.css" type="text/css" rel="stylesheet">-->
+        <style>
+            @import url(12-1.css);
+        </style>
+    </head>
+    <body>
+        <h1>안녕하세요. 응구의 홈페이지임</h1>
+        반갑습니다. <br>
+        <hr>
+        <div style="background-color: aqua;">
+            지금부터 홈페이지를 꾸민데</div>
+        <!-- <img src="google.png"" width="200" alt="이미지 노노">
+        <img src="google_logo.png"" width="300" alt="이미지 no">-->
+        <!-- 순서가 있는 리스트 : Ordered List (OL) 
+        구조적인 문법을 좀더 편리하게 수정, 보기에 깔끔-->
+        <!--123-->
+        <h4>지난시간 배운내용들</h4>
+        <ol type="A" style=" background-color: antiquewhite;">
+            <li>웹구조</li>
+            <li>메모장 실습</li>
+            <li>웹 환경 구축</li>
+            <li>기초적인 HTML tag</li>
+        </ol>
+            <div>
+         1. 웹구조 <br>
+         2. 웹 환경 구축 <br>
+         3. 기초적인 HTML tag <br>
+        </div>
+        
+        <!-- 순서가 없는 리스트 : Unordered List (UL) -->
+        <!--...-->
+        <h4>지난시간 배운내용들</h4>
+        <ul style=" background-color: rgb(136, 96, 44);">
+            <li>웹구조</li>
+                <ul>
+                    <li>서버기반</li>
+                    <li>로컬기반</li>
+                </ul>
+            <li>메모장 실습</li>
+            <li>웹 환경 구축</li>
+            <li>기초적인 HTML tag</li>
+        </ul>
+
+        <!--a 정의 리스트 DL-->
+        <dl>
+            <dt>웹 구조</dt>
+            <dd>설명 솰라솰라</dd>
+
+            <dt>리스트 태그</dt>
+            <dd>순서잇는건 ol 
+                순서 없는건 ul 
+            </dd>
+
+            <dt>이미지 태그</dt>
+            <dd>im 태크로 src 속성에 이미지 위치를 입력 
+            </dd>
+
+        </dl>
+        <!--table-->
+        <table>
+            <caption>테이블 제목</caption>
+            <thead><tr>
+                <th>이름</th>
+                <th>나이</th>
+                <th>지역</th>
+            </tr></thead>
+            
+            <tbody>
+                <tr>
+                    <td>하능</td>
+                    <td><b>20</b></td>
+                    <td>부산</td>
+                </tr>
+                <tr>
+                    <td><img src="googlelogo.png" height="10"></td>
+                    <td style="background-color: yellow;">29</td>
+                    <td><a href = "http://www.google.com" target="_blank">google</a></td>
+                </tr><!--target="black" new tab-->
+                <tr>
+                    <td><a href = "http://m.naver.com" target="mall">iframe3</a></td>
+                    <td><a href = "http://www.coupang.com" target="mall">iframe2</a></td>
+                    <td><a href = "http://m.google.com" target="mall">iframe</a></td>
+                </tr><!--target="name" iframe opne-->
+            </tbody>
+
+            <tfoot><tr>
+                <th>나이합</th>
+                <th>2</th>
+                <th>비고</th>
+            </tr></tfoot>
+        </table>
+        <hr>
+        <iframe src="https://www.coupang.com" name="mall" width="1000"></iframe>
+        <iframe width="1000" height="480" src="https://www.youtube.com/embed/yEOMxhxk2OM" title="[풀버전] 개그 별점 만점! 소문난 개그 맛집! &#39;심곡 파출소&#39; [개그콘서트/Gag Concert] | KBS 240526 방송" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <!--css test-->
+        <h2>안녕하세요. 응구의 홈페이지임</h2>
+        <span>반갑</span>습니다. <br>
+        <hr style="border:50px dotted olive">
+        <p class="p1">1st milk</p>
+        <p id="pid2">2nd milk</p>
+        <p class="p3">3rd milk</p>
+    </body>
+</html>

@@ -1,0 +1,16 @@
+body { background-color: cadetblue; }
+h2 { color: gray; }
+hr { border:10px solid red;  }
+span { color: orange; font-size: 30px;}
+p { color: blue; }
+
+.p1 { color:coral }
+.p2 { color: lightblue }
+.p3 { color: white}
+
+#pid1 { color:darkgray}
+#pid2 { color:darkgoldenrod }
+#pid3 { color:violet }
+순서에 따라 겹쳐지는 결과
+-.@ 클래스 보통사용
+-#@ 아이디 유니크한 단독사용
